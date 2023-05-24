@@ -13,7 +13,7 @@ pipelineJob('YaaKhayerBackendJob') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/B2Yassine00/YAA-Khayer/tree/branch-DEV/BackEnd-no-context/yaa-khayer.git'
+                        url 'https://github.com/B2Yassine00/YAA-Khayer/tree/branch-DEV/BackEnd-no-context/yaa-khayer'
                     }
                     branch 'branch-DEV'
                 }
@@ -28,7 +28,7 @@ pipelineJob('YaaKhayerFrontJob') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/B2Yassine00/YAA-Khayer/tree/branch-DEV/Frontend/yaa-khayer-front.git'
+                        url 'https://github.com/B2Yassine00/YAA-Khayer/tree/branch-DEV/Frontend/yaa-khayer-front'
                     }
                     branch 'branch-DEV'
                 }
